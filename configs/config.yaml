@@ -1,0 +1,11 @@
+# Config file for image-previewer service
+APP:
+  HOST: '127.0.0.1'
+  PORT: 8080
+  DEBUG: true
+  LOG_LEVEL: 'info'
+  SHUTDOWN_TIMEOUT_SECOND: 30
+  READ_TIMEOUT_SECOND: 10
+  WRITE_TIMEOUT_SECOND: 10
+CACHE:
+  MAX_SIZE: 104857600
